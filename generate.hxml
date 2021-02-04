@@ -1,0 +1,11 @@
+-v
+--macro allowPackage("flash")
+-D doc-gen
+-D minAreaTriangleDoc
+#--macro include('minAreaTriangle')
+-cp src
+-main minAreaTriangle.DocMinAreaTriangle
+--no-output
+-xml output.xml
+-cpp foo
+# -D dump==pretty
